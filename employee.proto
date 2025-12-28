@@ -6,8 +6,20 @@ message Employee {
   int32 salary = 3;
   string email = 4;
   string hire_date = 5;
+  string position = 6;
+  string department = 7;
+  bool active = 8;
 }
 
 message Employees {
   repeated Employee employee = 1;
+}
+
+message EmployeesResponse {
+  bool ok = 1;
+  int32 received = 2;
+}
+
+service EmployeeService {
+  rpc SendEmployees (Employees) returns (EmployeesResponse);
 } 

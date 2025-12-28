@@ -1,0 +1,34 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Ali",
+      "salary": 9000,
+      "email": "ali@example.com",
+      "hireDate": "2020-01-15",
+      "position": "Engineer",
+      "department": "R&D",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Kamal",
+      "salary": 22000,
+      "email": "kamal@example.com",
+      "hireDate": "2018-06-03",
+      "position": "Manager",
+      "department": "Sales",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Amal",
+      "salary": 23000,
+      "email": "amal@example.com",
+      "hireDate": "2019-09-23",
+      "position": "Analyst",
+      "department": "Finance",
+      "active": false
+    }
+  ]
+}
