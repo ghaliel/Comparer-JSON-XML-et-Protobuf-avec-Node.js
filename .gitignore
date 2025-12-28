@@ -1,0 +1,6 @@
+node_modules/
+data.json
+data.pretty.json
+data.xml
+data.bin
+package-lock.json
